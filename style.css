@@ -209,12 +209,34 @@ nav #box #social a:nth-child(2) {
 }
 
 #philosophy a {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 5.4px;
   text-decoration: none;
   padding: 17px 67px;
   border: 2px solid #252525;
   color: #252525;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  margin: 126px 0 73px;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3.6px;
+}
+
+footer p:nth-of-type(1) {
+  margin-bottom: 17px;
+}
+
+footer p:nth-of-type(2) {
+  margin-bottom: 137px;
 }
 /*# sourceMappingURL=style.css.map */
