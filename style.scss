@@ -1,3 +1,5 @@
+$green:#49aa45;
+$gray333:#333333;
 * {
     margin: 0;
     padding: 0;
@@ -73,14 +75,55 @@ nav {
 // 內容區域
 #contant {
     width: 1920px;
-    height: 500px;
-   background-image: url(./img/paper.png);
+    height:2400px;
+    background-image: url(./img/paper.png);
+     border: 0.1px solid rgba(0,0,0,0);
 
     h1 {
+        margin-bottom: 60px;
         text-align: center;
         margin-top: 46px;
         font-weight: 300;
         letter-spacing: 9.6px;
         font-size: 32px;
+    }
+}
+#news{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    width: 1200px;
+    margin: 0 auto;
+    grid-gap: 20px;
+
+    div{
+        width: 380px;
+        height: 600px;
+        background-color: white;
+        padding: 30px;
+        box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3)
+    }
+    h3{
+        color: $green;
+        font-size: 12px;
+        letter-spacing: 3.6px;
+        text-align: center;
+    }
+
+    h4{
+       font-size: 22px;
+       font-weight: bold;
+       letter-spacing: 5px;
+       margin-top: 20px;
+    }
+
+    p{
+        font-size: 16px;
+        color: $gray333;
+        letter-spacing: 1.5px;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
     }
 }
