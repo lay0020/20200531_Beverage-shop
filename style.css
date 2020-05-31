@@ -136,4 +136,85 @@ nav #box #social a:nth-child(2) {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#product {
+  text-align: center;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#product div {
+  padding: 10px;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  right: 165px;
+}
+
+#product div h2 {
+  font-size: 30px;
+  color: #f86521;
+  letter-spacing: 8px;
+}
+
+#product div h5 {
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: #918d8d;
+}
+
+#product div p {
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#philosophy {
+  width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 650px auto;
+      grid-template-columns: 650px auto;
+  grid-gap: 30px;
+  padding-right: 20px;
+}
+
+#philosophy img {
+  width: 100%;
+  border: 10px solid white;
+}
+
+#philosophy h2 {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 7.2px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#philosophy p {
+  margin: 51px 0;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 6px;
+}
+
+#philosophy a {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 5.4px;
+  text-decoration: none;
+  padding: 17px 67px;
+  border: 2px solid #252525;
+  color: #252525;
+}
 /*# sourceMappingURL=style.css.map */
